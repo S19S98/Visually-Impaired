@@ -1,3 +1,7 @@
+// This project uses an Arduino UNO, 3 UltraSonic Sensors HCSR04 and Buzzer. The program is intended to guide the visually impaired person. 
+About the project : The three sensors are attached to a cap. First sensor is at the fron side of the head and the other two placed at both the sides of the first one with an aim of covering atleast 50 degrees.
+                    The distance between all the three sensors are compared and the sensor measuring the least distance beeps. The critical is kept at 50cm.//
+
 int trigPin1=2;
 int echoPin1=3;
 
